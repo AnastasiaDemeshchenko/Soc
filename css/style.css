@@ -102,6 +102,9 @@ a{
     box-shadow: 7px -5px 15px 3px rgba(0, 0, 0, .5);
 }
 
-.embed{
-    background: none;
+@media (max-width: 320px){
+    .main{
+        width: 320px;  
+    }
+
 }
